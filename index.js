@@ -1,3 +1,5 @@
 import Topology from './topology'
 
-new Topology().init()
+const data = require('./data.json')
+const option = { data }
+new Topology().init(option)

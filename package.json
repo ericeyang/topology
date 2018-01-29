@@ -8,7 +8,13 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
-    "watch": "parcel watch index.html",
     "build": "parcel build index.js --no-minify"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.5.1"
+  },
+  "dependencies": {
+    "d3": "^4.12.2",
+    "fs": "^0.0.1-security"
   }
 }

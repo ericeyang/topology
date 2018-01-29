@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": 1661,
+      "label": "北京",
+      "radius": 30,
+      "color": "#096dd9"
+    },
+    {
+      "id": 1663,
+      "label": "北京",
+      "radius": 33,
+      "color": "#096dd9"
+    },
+    {
+      "id": 1665,
+      "label": "上海",
+      "radius": 5,
+      "color": "#08979c"
+    },
+    {
+      "id": 1667,
+      "label": "上海",
+      "radius": 27,
+      "color": "#08979c"
+    },
+    {
+      "id": 1669,
+      "label": "北京",
+      "radius": 5,
+      "color": "#096dd9"
+    },
+    {
+      "id": 1671,
+      "label": "北京",
+      "radius": 3,
+      "color": "#096dd9"
+    },
+    {
+      "id": 1673,
+      "label": "上海",
+      "radius": 5,
+      "color": "#08979c"
+    },
+    {
+      "id": 1675,
+      "label": "上海",
+      "radius": 3,
+      "color": "#08979c"
+    }
+  ],
+  "links": [
+    { "source": "1665", "target": "1661", "color": "#389e0d" },
+    { "source": "1667", "target": "1665", "color": "#ff7875" },
+    { "source": "1669", "target": "1673", "color": "#389e0d" },
+    { "source": "1671", "target": "1669", "color": "#ff7875" },
+    { "source": "1673", "target": "1669", "color": "#389e0d" },
+    { "source": "1675", "target": "1673", "color": "#ff7875" },
+    { "source": "1661", "target": "1665", "color": "#389e0d" },
+    { "source": "1663", "target": "1661", "color": "#ff7875" }
+  ]
+}
